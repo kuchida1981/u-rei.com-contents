@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>contents.u-rei.com</title>
+  <meta name="description" content="u-rei.com の各種独立コンテンツ・ツールのポータルページです。">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://contents.u-rei.com/">
+  <meta property="og:title" content="contents.u-rei.com">
+  <meta property="og:description" content="u-rei.com の各種独立コンテンツ・ツールのポータルページです。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0e1117;
+      --card-bg: #161b22;
+      --card-border: #30363d;
+      --card-hover: #1f242c;
+      --text-main: #f0f6fc;
+      --text-muted: #8b949e;
+      --accent: #58a6ff;
+      --font-body: "IBM Plex Sans", "Noto Sans JP", system-ui, -apple-system, sans-serif;
+      color-scheme: dark;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background-color: var(--bg);
+      color: var(--text-main);
+      font-family: var(--font-body);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 3rem 1.5rem;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 3rem;
+      max-width: 640px;
+    }
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      color: var(--text-muted);
+      font-size: 1rem;
+    }
+
+    main {
+      width: 100%;
+      max-width: 720px;
+      display: flex;
+      flex-direction: column;
+      gap: 1.25rem;
+    }
+
+    .card {
+      display: block;
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 8px;
+      padding: 1.5rem;
+      text-decoration: none;
+      color: inherit;
+      transition: border-color 0.2s, background-color 0.2s, transform 0.15s;
+    }
+
+    .card:hover {
+      background: var(--card-hover);
+      border-color: var(--accent);
+      transform: translateY(-2px);
+    }
+
+    .card h2 {
+      font-size: 1.25rem;
+      font-weight: 600;
+      color: var(--accent);
+      margin-bottom: 0.5rem;
+    }
+
+    .card p {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+      line-height: 1.5;
+    }
+
+    .badge {
+      display: inline-block;
+      font-size: 0.75rem;
+      font-weight: 600;
+      padding: 0.2rem 0.5rem;
+      border-radius: 4px;
+      background: #238636;
+      color: #fff;
+      margin-bottom: 0.5rem;
+    }
+
+    footer {
+      margin-top: auto;
+      padding-top: 4rem;
+      text-align: center;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+
+    footer a {
+      color: var(--text-muted);
+      text-decoration: underline;
+    }
+
+    footer a:hover {
+      color: var(--text-main);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>contents.u-rei.com</h1>
+    <p>各種プロジェクト・静的コンテンツポータル</p>
+  </header>
+
+  <main>
+    <a href="/matt-cardona-vs-nick-gage-ja-subs/" class="card">
+      <span class="badge">字幕プレビュー</span>
+      <h2>The Untold Story of Matt Cardona vs. Nick Gage (日本語字幕)</h2>
+      <p>GCWマット・カルドナ vs ニック・ゲイジのドキュメンタリー非公式・ファンメイド日本語字幕プレビューページ。</p>
+    </a>
+  </main>
+
+  <footer>
+    <p>&copy; kuchida1981 &middot; <a href="https://u-rei.com/">u-rei.com (Blog)</a></p>
+  </footer>
+</body>
+</html>
